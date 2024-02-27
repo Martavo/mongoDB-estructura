@@ -1,0 +1,158 @@
+[
+  {
+    "_id": {
+      "$oid": "760c829f68a5b9c2177e5a11"
+    },
+    "data": {
+      "address": "C/Topete 123 08221 Terrassa",
+      "email": "paco@gmail.com",
+      "registration_date": {
+        "$date": "2024-05-15T10:30:00.000Z"
+      },
+      "phone": "687 654 321"
+    },
+    "client_name": "Paco Francisco Perez",
+    "client_id": 1,
+    "recommended_by": null,
+    "purchases": [
+      {
+        "glasses_id": 1,
+        "prescription": {
+          "right": 1.8,
+          "left": 2.0
+        },
+        "lens_color": {
+          "right": "Rojo",
+          "left": "Verde"
+        },
+        "brand": "NewBrand",
+        "sale_datetime": "2024-07-20T15:45:00.000Z",
+        "price": 180.75,
+        "frame_type": "Pasta",
+        "sold_by": {
+          "_id": {
+            "$oid": "760c829f68a5b9c2177e5a12"
+          },
+          "employee_id": 1
+        },
+        "supplier": {
+          "$oid": "5e0c27a6a0868a001f90ead0"
+        }
+      },
+      {
+        "glasses_id": 2,
+        "prescription": {
+          "right": 2.5,
+          "left": 3.0
+        },
+        "lens_color": {
+          "right": "Negro",
+          "left": "Negro"
+        },
+        "brand": "NewVision",
+        "sale_datetime": "2024-08-15T12:00:00.000Z",
+        "price": 220.50,
+        "frame_type": "Pasta",
+        "sold_by": {
+          "_id": {
+            "$oid": "760c829f68a5b9c2177e5a14"
+          },
+          "employee_id": 2
+        },
+        "supplier": {
+          "$oid": "760c829f68a5b9c2177e5a15"
+        }
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "761d829f68a5b9c2177e5a16"
+    },
+    "data": {
+      "address": "C/Sant Marian 456 08221 Terrassa",
+      "email": "paula@gmail.com",
+      "registration_date": {
+        "$date": "2024-04-01T08:00:00.000Z"
+      },
+      "phone": "555 123 789"
+    },
+    "client_name": "Paula Gomez Orta",
+    "client_id": 2,
+    "recommended_by": {
+      "$oid": "760c829f68a5b9c2177e5a11",
+      "client_id": 1
+    },
+    "purchases": [
+      {
+        "glasses_id": 3,
+        "prescription": {
+          "right": 3.0,
+          "left": 4.0
+        },
+        "lens_color": {
+          "right": "Blanco",
+          "left": "Blanco"
+        },
+        "brand": "Rayban",
+        "sale_datetime": "2024-09-10T18:30:00.000Z",
+        "price": 190.99,
+        "frame_type": "Flotante",
+        "sold_by": {
+          "_id": {
+            "$oid": "760c829f68a5b9c2177e5a12"
+          },
+          "employee_id": 2
+        },
+        "supplier": {
+          "$oid": "5e0c27a6a0868a001f90ead0"
+        }
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "764c829f68a5b9c2177e5a17"
+    },
+    "data": {
+      "address": "C/Colon 4 08224 Terrassa",
+      "email": "laura@gmail.com",
+      "registration_date": {
+        "$date": "2024-06-20T14:15:00.000Z"
+      },
+      "phone": "789 456 123"
+    },
+    "client_name": "Laura Fernandez Rodriguez",
+    "client_id": 3,
+    "recommended_by": {
+      "$oid": "761d829f68a5b9c2177e5a16",
+      "client_id": 1
+    },
+    "purchases": [
+      {
+        "glasses_id": 4,
+        "prescription": {
+          "right": 2.0,
+          "left": 2.0
+        },
+        "lens_color": {
+          "right": "Azul",
+          "left": "Azul"
+        },
+        "brand": "Tous",
+        "sale_datetime": "2024-10-05T17:30:00.000Z",
+        "price": 150.50,
+        "frame_type": "Pasta",
+        "sold_by": {
+          "_id": {
+            "$oid": "760c829f68a5b9c2177e5a14"
+          },
+          "employee_id": 2
+        },
+        "supplier": {
+          "$oid": "5e0c27a6a0868a001f90ead0"
+        }
+      }
+    ]
+  }
+]

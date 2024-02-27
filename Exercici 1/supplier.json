@@ -1,0 +1,36 @@
+[
+  {
+    "_id": {
+      "$oid": "5e0c27a6a0868a001f90ead0"
+    },
+    "name": "Vista S.L.",
+    "address": {
+      "street": "Font Vella",
+      "number": "2",
+      "floor_door": "Bajo 1",
+      "city": "Terrassa",
+      "postal_code": "08221",
+      "country": "Spain"
+    },
+    "phone": "678567654",
+    "fax": "978654345",
+    "nif": "B45678987"
+  },
+  {
+    "_id": {
+      "$oid": "760c829f68a5b9c2177e5a15"
+    },
+    "name": "BienVeo S.L.",
+    "address": {
+      "street": "Manresa",
+      "number": "12",
+      "floor_door": "Nave 5",
+      "city": "Terrassa",
+      "postal_code": "08224",
+      "country": "Spain"
+    },
+    "phone": "677895645",
+    "fax": "987564351",
+    "nif": "B78678234"
+  }
+]
