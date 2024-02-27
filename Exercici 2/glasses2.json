@@ -1,0 +1,60 @@
+[{
+  "_id": {
+    "$oid": "65900e4f3b1664e4cad20757"
+  },
+  "marca": "Rayban",
+  "tipo_montura": "Pasta",
+  "proveedor_datos": {
+    "nombre": "Vista S.L.",
+    "direccion": {
+      "calle": "Font Vella",
+      "numero": "2",
+      "piso_puerta": "Bajo 1",
+      "ciudad": "Terrassa",
+      "codigo_postal": "08221",
+      "pais": "Spain"
+    },
+    "telefono": "678567654",
+    "fax": "978654345",
+    "nif": "B45678987"
+  },
+  "precio": 190.99,
+  "comprado_por": [
+    {
+      "_id": {
+        "$oid": "760c829f68a5b9c2177e5a11"
+      },
+      "cliente_id": "1"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "65900e4f3b1664e4cad20758"
+  },
+  "marca": "Rayban",
+  "tipo_montura": "Pasta",
+  "proveedor_datos": {
+    "nombre": "BienVeo S.L.",
+    "direccion": {
+      "calle": "Manresa",
+      "numero": "12",
+      "piso_puerta": "Nave 5",
+      "ciudad": "Terrassa",
+      "codigo_postal": "08224",
+      "pais": "Spain"
+    },
+    "telefono": "677895645",
+    "fax": "987564351",
+    "nif": "B78678234"
+  },
+  "precio": 220.50,
+  "comprado_por": [
+    {
+      "_id": {
+        "$oid": "761d829f68a5b9c2177e5a16"
+      },
+      "cliente_id": "2"
+    }
+  ]
+}]

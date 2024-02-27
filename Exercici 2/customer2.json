@@ -1,0 +1,48 @@
+[{
+  "_id": {
+    "$oid": "760c829f68a5b9c2177e5a11"
+  },
+  "nombre_cliente": "Paco Francisco Perez",
+  "datos": {
+    "direccion": "C/Topete 123 08221 Terrassa",
+    "email": "paco@gmail.com",
+    "fecha_registro": {
+      "$date": "2024-05-15T10:30:00.000Z"
+    },
+    "telefono": "687654321"
+  },
+  "cliente_id": 1,
+  "graduacion": {
+    "d": 2,
+    "i": 2.3
+  },
+  "color_cristal": {
+    "d": "Rojo",
+    "i": "Amarillo"
+  },
+  "recomendado_por": null
+},
+{
+  "_id": {
+    "$oid": "761d829f68a5b9c2177e5a16"
+  },
+  "nombre_cliente": "Paula Gomez Orta",
+  "datos": {
+    "direccion": "C/Sant Marian 456 08221 Terrassa",
+    "email": "paula@gmail.com",
+    "fecha_registro": {
+      "$date": "2024-04-01T08:00:00.000Z"
+    },
+    "telefono": "655123789"
+  },
+  "cliente_id": 2,
+  "graduacion": {
+    "d": 3,
+    "i": 4.5
+  },
+  "color_cristal": {
+    "d": "Blanco",
+    "i": "Blanco"
+  },
+  "recomendado_por": 1
+}]
